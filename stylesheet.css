@@ -9,28 +9,28 @@ body{
 	width: 600px;
 	display: block;
 	position: relative;
+	margin: 50px auto;
+
 }
 
 #container::after	{
 	content: "";
-	opacity: 0.5;
+	opacity: 0.4;
 	background: url(DC_Metro_Map.svg);
 	background-size: contain;
 	background-repeat: no-repeat;
-	position: relative;
 	border: 1px black solid;
-	opacity: 0.5;
- top: 0;
- left: 0;
- bottom: 0;
- right: 0;
- position: absolute;
- z-index: -1; 
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
 }
 
 .inner{
 	color: rgba(255,255,255,1);
-	background-color: rgba(0,0,0,.7	);
+	background-color: rgba(0,0,0,.6	);
 	padding: 20px;
 	position: absolute;
 	top: 50%;
@@ -39,8 +39,4 @@ body{
 	line-height: 25px;
 	height: 170px;
 	width: 300px;
-}
-
-#question, #prices{
-
 }
