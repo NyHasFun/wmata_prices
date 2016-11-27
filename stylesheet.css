@@ -23,6 +23,8 @@ body{
 	left: 50%;
 	transform: translate(-50%, -50%);
 	line-height: 25px;
+	height: 170px;
+	width: 300px;
 }
 
 #question, #prices{
