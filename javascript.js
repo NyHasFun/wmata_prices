@@ -47,9 +47,9 @@ function price(){
 		if(start == "" || end== ""){
 			$("#peak").html("Please pick begining and end")
 		}else{
-			$("#peak").html("Peak: "+data.StationToStationInfos[0].RailFare.PeakTime);
-			$("#offPeak").html("Off Peak: "+data.StationToStationInfos[0].RailFare.OffPeakTime);
-			$("#sr").html("Senior Citezen "+data.StationToStationInfos[0].RailFare.SeniorDisabled);	console.log(data.StationToStationInfos[0].RailFare)
+			$("#peak").html("Peak: $"+data.StationToStationInfos[0].RailFare.PeakTime);
+			$("#offPeak").html("Off Peak: $" +data.StationToStationInfos[0].RailFare.OffPeakTime);
+			$("#sr").html("Senior Citezen $" +data.StationToStationInfos[0].RailFare.SeniorDisabled);
 		}
 
 	})
